@@ -1,0 +1,19 @@
+# exercicio
+trabalho de escola
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+    int i;
+    printf ("digite um numero\n");
+    for (i=0; i<200; i++)
+    {
+        if (i%2==0)
+        {
+            printf ("\t-> %d\n",i);
+        }
+    }
+    return 0;
+}
