@@ -1,0 +1,19 @@
+# exercicio
+trabalho de escola
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+    int i,a=0;
+    printf ("digite um numero\n");
+    for (i=0; i<100; i++)
+    {
+        a=a+i;
+        {
+            printf ("\t-> %d\n",a);
+        }
+    }
+    return 0;
+}
