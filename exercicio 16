@@ -1,0 +1,48 @@
+# exercicio
+trabalho de escola (Nava)
+
+#include <stdlib.h> 
+#include <stdio.h> 
+#include <string.h> 
+#include <ctype.h> 
+
+int main (void)
+{
+  char b[50];
+  int i, a;
+
+  printf ("escreva uma frase qualquer...\n");
+  gets (b);
+
+  a = strlen (b); 
+
+  for (i=0; i<a; i++)
+  {
+    switch (tolower (b[i]) )
+    {
+      case 'a':
+        b[i]='x';
+        break;
+
+      case 'e':
+        b[i]='y';
+        break;
+
+      case 'i':
+        b[i]='w';
+        break;
+
+      case 'o':
+        b[i]='k';
+        break;
+
+      case 'u':
+        b[i]='z';
+        break;
+    }
+  }
+  system("cls");
+  printf("criptografia com sucesso\n%s",b);
+
+return 0;
+}
