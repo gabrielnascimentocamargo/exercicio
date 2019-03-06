@@ -1,0 +1,25 @@
+# exercicio
+trabalho de escola (Nava)
+
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+int main()
+{
+  float a, i, raiz;
+  printf ("digite um numero\n");
+
+  for (i=0;i<10;i++)
+  {
+    scanf ("%f",&a);
+    if (a<0)
+    {
+      printf ("numero não registrado!");
+      break;
+    }
+    raiz = sqrt(a);
+    printf ("a raiz quadrada de %f é: %f\n", a, raiz);
+  }
+return 0;
+}
