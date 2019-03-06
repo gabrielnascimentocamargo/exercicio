@@ -1,0 +1,99 @@
+# exercicio
+trabalho de escola
+
+#include <stdlib.h>
+#include <stdio.h>
+int main(void)
+{
+  
+  int num;
+  printf ("\n\ntabela de polegadas\n\n digite de 1 a 20 para saber de cm a polegadas \n");
+  scanf ("%d",&num);
+
+  switch (num)
+  {
+    case 1:
+    printf ("1 cm é 2,54 polegadas");
+    break;
+
+    case 2:
+    printf ("2 cm é 5,08 polegadas");
+    break;
+
+    case 3:
+    printf ("3 cm é 7,62 polegadas");
+    break;
+  
+    case 4:
+    printf ("4 cm é 10,16 polegadas");
+    break;
+  
+    case 5:
+    printf ("5 cm é 12,7 polegadas");
+    break;
+
+    case 6:
+    printf ("6 cm é 15,24 polegadas");
+    break;
+
+    case 7:
+    printf ("7 cm é 17,78 polegadas");
+    break;
+
+    case 8:
+    printf ("8 cm é 20,32 polegadas");
+    break;
+
+    case 9:
+    printf ("9 cm é 22,86 polegadas");
+    break;
+
+    case 10:
+    printf ("10 cm é 25,4 polegadas");
+    break;
+
+    case 11:
+    printf ("11 cm é 27,94 polegadas");
+    break;
+
+    case 12:
+    printf ("12 cm é 30,48 polegadas");
+    break;
+
+    case 13:
+    printf ("13 cm é 33,02 polegadas");
+    break;
+
+    case 14:
+    printf ("14 cm é 35,56 polegadas");
+    break;
+
+    case 15:
+    printf ("15 cm é 38,1 polegadas");
+    break;
+
+    case 16:
+    printf ("16 cm é 40,64 polegadas");
+    break;
+
+    case 17:
+    printf ("17 cm é 43,18 polegadas");
+    break;
+
+    case 18:
+    printf ("18 cm é 45,72 polegadas");
+    break;
+
+    case 19:
+    printf ("19 cm é 48,26 polegadas");
+    break;
+
+    case 20:
+    printf ("20 cm é 50,8 polegadas");
+    break;
+
+    default :
+    printf ("Valor não registrado!\n");
+  }
+  return 0;
+}
