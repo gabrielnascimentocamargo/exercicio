@@ -1,0 +1,30 @@
+# exercicio
+trabalho de escola
+
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main (void)
+
+{ 
+  system ("color 0b");
+
+  int i=1; 
+  float Fahrenheit, Celsius, a, b;
+
+  printf ("Digite o limite inferior ");
+  scanf ("%f", &a);
+
+  printf ("Digite o limite superior ");
+  scanf ("%f", &b);
+
+  Fahrenheit = a;
+
+  while (Fahrenheit <= b)
+  {
+    Celsius = 5 * (Fahrenheit - 32)/9;
+    printf ("%.0f Fahrenheit e igual a %.2f Celsius\n",Fahrenheit, Celsius);
+    Fahrenheit = Fahrenheit + i;
+  }
+return 0;
+}
