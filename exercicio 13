@@ -1,0 +1,32 @@
+# exercicio
+trabalho de escola (Nava)
+
+#include <stdio.h> 
+#include <stdlib.h>
+
+int main(void)
+{ 
+  system ("color 0b"); 
+  int i, n[20], a;
+  int soma=0;
+
+  for (i=1; i<=20; i++)
+  {
+    printf ("Digite um numero: ");
+    scanf ("%d", &n[i]);
+  }
+
+
+  for (i=1; i<=20; i++)
+  {
+    a = n[i] * n[i];
+    if (a < 225)
+    {
+      soma = soma+a;
+    }
+  }
+
+  printf("a soma dos números que os quadrados que são menores que 225 digitados são: %d\n", soma);
+
+return 0; 
+}
