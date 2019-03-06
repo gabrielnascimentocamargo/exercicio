@@ -1,0 +1,23 @@
+# exercicio
+trabalho de escola
+
+#include <stdlib.h>
+#include <stdio.h>
+int main(void)
+{
+  
+  int i,a=0,num;
+  printf ("\n\ndigite um numero \n\n");
+  for (i=0;i<5;i++)
+  {
+    scanf ("%d",&num);
+
+    if (num > a)
+    {
+      a = num;
+    }
+  }
+    printf ("%d foi o maior numero digitado",a);
+
+  return 0;
+}
