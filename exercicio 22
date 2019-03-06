@@ -1,0 +1,37 @@
+# exercicio
+trabalho de escola (Nava)
+
+#include <stdlib.h> 
+#include <stdio.h>
+
+int main (void) 
+{
+  system ("color 0b"); 
+  int i, a;
+  int b = 0;
+
+  printf ("Digite um numero\n"); 
+  scanf ("%d", &a);
+
+  for (i = 2; i <= a / 2; i++) 
+  { 
+    if (a % i == 0)
+    { 
+      b = b + 1; 
+    } 
+  } 
+
+
+  if (b == 0)
+  { 
+    printf ("o numero %d digitado é primo\n", a);
+  } 
+
+
+  else
+  { 
+    printf ("o numero digitado %d não é primo\n", a);
+  }
+
+return 0; 
+}
