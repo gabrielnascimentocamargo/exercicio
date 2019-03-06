@@ -1,2 +1,19 @@
 # exercicio
 trabalho de escola
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+    int i, a, num;
+    for (i=0; i<5; i++)
+    {
+        printf ("digite um numero\n");
+        scanf ("%d", &a);
+        num=a*a;
+        {
+            printf ("\t-> %d\n",num);
+        }
+    }
+    return 0;
+}
