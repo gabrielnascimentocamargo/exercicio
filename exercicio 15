@@ -1,0 +1,25 @@
+# exercicio
+trabalho de escola (Nava)
+
+#include <stdlib.h> 
+#include <stdio.h> 
+#include <string.h>
+
+int main (void) 
+{ 
+  system ("color 0b"); 
+
+  int i, a;
+  char seunome[30]; 
+
+  printf ("Digite um nome:\n");
+  gets (seunome);
+
+  a = strlen (seunome);
+  
+  for (i=a; i>=0; i--)
+  {
+    printf ("%s\n",&seunome[i]);
+  }
+return 0; 
+}
