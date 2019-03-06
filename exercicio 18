@@ -1,0 +1,21 @@
+# exercicio
+trabalho de escola (Nava)
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+  int i,contador=0;
+  printf ("Digite um numero, ou um negativo para sair:\n");
+  scanf ("%d",&i);
+  while (i>-1)
+  {
+    contador = contador+1;
+    printf ("\nDigite outro numero positivo:\n");
+    scanf ("%d",&i);
+  }
+  
+  printf ("voce digitou %d vezes numeros positivos",contador);
+return 0;
+}
