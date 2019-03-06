@@ -1,0 +1,28 @@
+# exercicio
+trabalho de escola (Nava)
+
+#include <stdlib.h>
+#include <stdio.h>
+int main(void)
+{
+  
+  int i,num,a=99,b=201,contador=0;
+  printf ("\n\ndigite numeros entre 100 e 200 e 0 para sair\n\n");
+
+  while (num!=0)
+  {
+    printf ("eperando proximo numero... ");
+    scanf ("%d",&num);
+    contador = contador+1;
+
+    if ((a>201)||(b<99))
+    {
+      printf ("\t\t numero não registrado!");
+      break;
+    }
+    
+    printf ("\n\t\t foram digitados %d numeros\n\n",contador);
+  }
+  printf ("\n\t\t fim do programa!");
+  return 0;
+}
