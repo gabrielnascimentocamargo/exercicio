@@ -5,8 +5,7 @@ trabalho de escola (Nava)
 #include <stdlib.h>
 
 int main(void)
-{ 
-  system ("color 0b"); 
+{  
   int i, n[20], a;
   int soma=0;
 
