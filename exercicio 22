@@ -6,7 +6,6 @@ trabalho de escola (Nava)
 
 int main (void) 
 {
-  system ("color 0b"); 
   int i, a;
   int b = 0;
 
