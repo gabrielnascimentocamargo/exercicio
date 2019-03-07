@@ -7,8 +7,6 @@ trabalho de escola
 int main (void)
 
 { 
-  system ("color 0b");
-
   int i=1; 
   float Fahrenheit, Celsius, a, b;
 
